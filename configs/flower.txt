@@ -1,0 +1,19 @@
+expname = flower_ours
+basedir = ./flower_test
+datadir = ./data/LLFF-M/flower
+dataset_type = llff
+
+factor = 8
+no_batching = True
+N_rand = 8250
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
+patch = True
+patch_rand = 1200
+useImageEntropy = True
+useIteration = True
+mask = 50

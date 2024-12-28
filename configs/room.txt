@@ -1,0 +1,22 @@
+expname = room_ours
+basedir = ./room_test
+datadir = ./data/LLFF-M/room
+dataset_type = llff
+
+factor = 8
+no_batching = True
+N_rand = 8000
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
+patch = True
+patch_rand = 1200
+useImageEntropy = True
+useIteration = True
+shape = circle
+patch_size = 20
+K_Nr = 16
+mask = 50

@@ -1,0 +1,20 @@
+expname = horns_ours
+basedir = ./horns_test
+datadir = ./data/LLFF-M/horns
+dataset_type = llff
+
+factor = 8
+no_batching = True
+N_rand = 8200
+N_samples = 64
+N_importance = 64
+
+use_viewdirs = True
+raw_noise_std = 1e0
+
+patch_rand = 1200
+patch = True
+useImageEntropy = True
+useIteration = True
+mask = 25
+
